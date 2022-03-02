@@ -1,0 +1,168 @@
+/*Mostly used boostrap for formatting the fancy things, but for the actual sections, I used formatting in CSS. I also added some CSS declarations to the bootstrap classes for personalized purposes.*/
+#Navbar
+{
+    margin-right: 10px;
+}
+
+.navbar-header img
+{
+    height: 80px;
+}
+
+.jumbotron
+{
+    background-image: url(Images/5.jpg);
+    color: rgb(80, 80, 80);
+}
+
+.NormalDIV img
+{
+    height: 250px;
+    border: 5px solid rgb(80, 80, 80);
+    margin-top: 30px;
+}
+
+
+.NormalDIV img:hover
+{
+    box-shadow: 0 0 4px 3px rgb(30, 30, 30);
+    
+}
+
+.jumbotron h1
+{
+    margin-top: 235px;
+    margin-bottom: 0px;
+    font-family: Georgia, helvetica;
+}
+
+.NormalDIV
+{
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(200, 200, 200);
+}
+
+.NormalDIV h2
+{
+    margin:30px;
+    font-weight: bolder;
+    font-family: Georgia, helvetica;
+    color: rgb(80, 80, 80);
+}
+
+.NormalDIV h3
+{
+    margin:30px;
+    font-weight: bolder;
+    font-family: Georgia, helvetica;
+    color: rgb(80, 80, 80);
+}
+
+.NormalDIV p
+{
+    margin:30px;
+    font-weight: bolder;
+    font-family: helvetica;
+    line-height: 21px;
+    color: rgb(80, 80, 80);
+}
+
+.NormalDIV ul
+{
+    font-weight: bolder;
+    font-family: helvetica;
+    color: rgb(80, 80, 80);
+}
+
+
+#unmargin
+{
+    margin-left: 10px;
+}
+
+
+.page-header
+{
+    background-color: rgb(200, 200, 200);
+}
+
+.page-header h2
+{
+    color: rgb(80, 80, 80);
+    font-weight: 550;
+}
+
+.dropdown-menu
+{
+    background-color: rgb(118, 120, 124);
+    color: white;
+}
+
+.ProfileCard h3
+{
+    font-weight: bold;
+    color: rgb(30, 30, 30);
+}
+
+.ProfileCard img
+{
+    border: 5px solid black;
+    max-block-size: 200px;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.ProfileCard img:hover
+{
+    box-shadow: 0 0 4px 3px rgba(0, 140, 186, 0.5);
+    
+}
+
+.ProfileCard
+{
+    border: 5px solid black;
+    background-color: rgb(200, 200, 200);
+    max-width: 300px;
+}
+
+.ProfileCard .btn-info
+{
+    margin: 10px;
+    background-color: rgb(80, 80, 80);
+}
+
+.ProfileCard p
+{
+    margin: 10px;
+    color: rgb(30, 30, 30);
+}
+
+.center {
+    margin-left: 100px;
+}
+
+#SpecialIMGLG
+{
+    height: 500px;
+}
+
+.Bottom
+{
+    background-color: grey;
+    border-top: 5px solid black;
+}
+
+.Bottom p, .Bottom ul
+{
+    margin: 20px;
+}
+
+.Bottom .validator
+{
+    height: 150;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

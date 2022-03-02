@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>Engineering for Eggheads</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <!--QUICK IMPORTANT NOTE: I have used bootstrap pre-defined classes for the page banners also known as Jumbotrons and for the entire website fluidity depending on screen size also known as container class-->
+            <div class="jumbotron">
+                <h1>Engineering for Eggheads</h1>
+            </div>
+            <!--Navbar, used boostrap-->
+            <nav class="navbar navbar-inverse navbar-fixed-top container">
+                <div class="navbar-header">
+                    <a href="index.html"><img src="Images/logo.png" alt="Engineering for eggheads logo"></a>
+                </div> 
+                <ul id="Navbar" class="nav navbar-nav navbar-right">
+                    <li><a href="whatisengineering.html">What is Engineering?</a></li>
+                    <li><a href="eggheadsofthepast.html">Eggheads of the Past</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="education.html">
+                            Education
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="education.html">Overview</a></li>
+                            <li><a href="civil.html">Civil Engineering</a></li>
+                            <li><a href="chemical.html">Chemical Engineering</a></li>
+                            <li><a href="mechanical.html">Mechanical Engineering</a></li>
+                            <li><a href="electrical.html">Electrical Engineering</a></li>
+                            <li><a href="industrial.html">Industrial Engineering</a></li>
+                            <li><a href="universities.html">Universities</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="employment.html">Employment</a></li>
+                    <li><a href="thefuture.html">The Future</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--First Section, used bootstrap for organization-->
+        <div class="container">
+            <div class="NormalDIV">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div>    
+                            <h2>Introduction</h2>
+                            <p>
+                                Welcome to the first guide in the Info for Eggheads series! 
+                                My name is Sujay Golla and I would be helping people like YOU 
+                                understand and love the field of engineering, both as a major 
+                                and as a career option. This guide contains a lot of important 
+                                information about this field and it is important to note that 
+                                this guide is a quick overview of this broad field of career. 
+                                Some things I would be discussing in this guide include what it 
+                                really means to do engineering, the engineers of the past, 
+                                education in engineering, employment in engineering, and the 
+                                future of this wonderful field.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-center">
+                        <img src="Images/4.png" alt="Picture of an engineer animated character"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Second Section, used boostrap for organization-->
+        <div class="container">
+            <div class="page-header text-center">
+                <h2>Quick Preview</h2>
+            </div>
+        </div>
+        <!--Carousel of the entire website previews, used boostrap-->
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="Images/73.jpg" alt="A gear system">
+                        <div class="carousel-caption">
+                            <h3>What is Engineering?</h3>
+                            <a href="whatisengineering.html" class="btn btn-info" role="button">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Images/12.jpg" alt="Clocking turning back time">
+                        <div class="carousel-caption">
+                            <h3>Eggheads of the Past</h3>
+                            <a href="eggheadsofthepast.html" class="btn btn-info" role="button">Learn More</a>>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Images/36.jpg" alt="An engineering student">
+                        <div class="carousel-caption">
+                            <h3>Education in Engineering</h3>
+                            <a href="education.html" class="btn btn-info" role="button">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Images/31.jpg" alt="Engineers planning">
+                        <div class="carousel-caption">
+                            <h3>Employment in Engineering</h3>
+                            <a href="employment.html" class="btn btn-info" role="button">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="Images/35.jpg" alt="Futuristic Building">
+                        <div class="carousel-caption">
+                            <h3>The future of Engineering</h3>
+                            <a href="thefuture.html" class="btn btn-info" role="button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!--Sources and Validators-->
+        <div class="container">
+            <div class="Bottom">
+                <p>Sources:</p>
+                <ul>
+                    <li>Banner Image: <a href="https://www.engenheirobernardo.com.br/">https://www.engenheirobernardo.com.br/</a>, n.n, Date accessed: Feb 27 2022</li>
+                    <li>Image 1 in Carousel: <a href="https://www.fiverr.com/marwanahmed633/help-you-with-mechanical-engineering-problems-researches">https://www.fiverr.com/marwanahmed633/help-you-with-mechanical-engineering-problems-researches</a>, marwanahmed633, Date accessed: Feb 27 2022</li>
+                    <li>Image 2 in Carousel: <a href="https://newatlas.com/physics/quantum-time-travel-simulator-butterfly-effect/">https://newatlas.com/physics/quantum-time-travel-simulator-butterfly-effect/</a>, Mikhail Leonov, Date accessed: Feb 27 2022</li>
+                    <li>Image 3 in Carousel: <a href="https://www.stthomas.edu/academics/undergraduate/mechanical-engineering-major/">https://www.stthomas.edu/academics/undergraduate/mechanical-engineering-major/</a>, n.n, Date accessed: Feb 27 2022</li>
+                    <li>Image 4 in Carousel: <a href="https://www.pinterest.ca/pin/385480049330157595/">https://www.pinterest.ca/pin/385480049330157595/</a>, Maggie Dema, Date accessed: Feb 27 2022</li>
+                    <li>Image 5 in Carousel: <a href="https://wallpaperaccess.com/future-building">https://wallpaperaccess.com/future-building</a>, n.n, Date accessed: Feb 27 2022</li>
+                </ul>
+                <a href="http://validator.w3.org/check?uri=https://sujay-golla.github.io/project/"><img class="validator" src="Images/w3c.png" alt="HTML5 Validator"></a>
+                <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://sujay-golla.github.io/project/"><img class="validator" src="Images/css.png" alt="CSS Validator"></a>
+            </div>
+        </div>
+    </body>
+</html>
