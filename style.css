@@ -110,7 +110,7 @@
 {
     border: 5px solid black;
     max-block-size: 200px;
-    max-width: 200px;
+    width: 200px;
     margin: 10px;
 }
 
@@ -124,7 +124,7 @@
 {
     border: 5px solid black;
     background-color: rgb(200, 200, 200);
-    max-width: 300px;
+    width: 300px;
 }
 
 .ProfileCard .btn-info
@@ -161,7 +161,7 @@
 
 .Bottom .validator
 {
-    height: 150;
+    height: 150px;
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
