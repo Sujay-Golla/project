@@ -122,7 +122,9 @@
 
 .ProfileCard
 {
-    border: 5px solid black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
     background-color: rgb(200, 200, 200);
     width: 300px;
 }
@@ -151,7 +153,9 @@
 .Bottom
 {
     background-color: grey;
-    border-top: 5px solid black;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: black;
 }
 
 .Bottom p, .Bottom ul
